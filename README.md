@@ -68,4 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # react-portfolio
+
+---
+
+### 1st time Clone
+
+1. git clone https://github.com/jsera46/react-portfolio.git
+2. cd react-portfolio
+3. npm install
+4. npm run start
+   !!!Happy Hacking
+   ---Branching
+5. git branch branch_name
+6. git checkout branch_name
