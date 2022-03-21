@@ -1,0 +1,29 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../components/styles/app.scss",
+        "../components/404Page/_404Page.scss",
+        "../components/AboutPage/_AboutPage.scss",
+        "../components/AboutPage/AboutPageMain/_AboutPageMain.scss",
+        "../components/AboutPage/AboutPageContent/_AboutPageContent.scss",
+        "../components/AboutPage/AboutPageContact/_AboutPageContact.scss",
+        "../components/ContactPage/_ContactPage.scss",
+        "../components/ContactPage/ContactPageMain/_ContactPageMain.scss",
+        "../components/ContactPage/ContactPageContent/_ContactPageContent.scss",
+        "../components/Footer/_Footer.scss",
+        "../components/LandingPage/_LandingPage.scss",
+        "../components/LandingPage/LandingPageMain/_LandingPageMain.scss",
+        "../components/LandingPage/LandingPageContent/_LandingPageContent.scss",
+        "../components/LandingPage/LandingPageContact/_LandingPageContact.scss",
+        "../components/LandingPage/LandingPagePortfolio/_LandingPagePortfolio.scss",
+        "../components/Navbar/_Navbar.scss",
+        "../components/PortfolioPage/_PortfolioPage.scss",
+        "../components/PortfolioPage/PortfolioPageMain/_PortfolioPageMain.scss",
+        "../components/PortfolioPage/PortfolioPageContent/_PortfolioPageContent.scss",
+        "../components/PortfolioPage/PortfolioPageContentExt/_PortfolioPageContentExt.scss",
+        "../components/PortfolioPage/PortfolioPageContact/_PortfolioPageContact.scss"
+    ],
+    "names": [],
+    "file": "app.css"
+}
