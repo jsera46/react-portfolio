@@ -1,11 +1,17 @@
-import React from 'react';
+import React from "react";
+import { useLocation } from "react-router-dom";
 import "../../styles/app.css";
+import { Navbar } from "../Exporter";
 
-const Index = () => (
-    <div>
-        404Page Component
-    </div>
-);
-
+const Index = () => {
+  const location = useLocation();
+  location.pathname = "/404";
+  return (
+    <>
+      <Navbar />
+      404Page Component
+    </>
+  );
+};
 
 export default Index;
