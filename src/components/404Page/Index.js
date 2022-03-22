@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import "../../styles/app.css";
-import { Navbar } from "../Exporter";
+import { Footer, Navbar } from "../Exporter";
 
 const Index = () => {
   const location = useLocation();
@@ -10,6 +10,7 @@ const Index = () => {
     <>
       <Navbar />
       404Page Component
+      <Footer />
     </>
   );
 };

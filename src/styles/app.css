@@ -35,23 +35,38 @@
   text-decoration: none;
 }
 
-.section-navbar .contact-link, .section-navbar .portfolio-link, .section-navbar .about-link {
+.section-navbar .home-link,
+.section-navbar .contact-link,
+.section-navbar .portfolio-link,
+.section-navbar .about-link {
   margin-left: 27px;
 }
 
-.section-navbar .contact-link:hover, .section-navbar .portfolio-link:hover, .section-navbar .about-link:hover {
+.section-navbar .home-link:hover,
+.section-navbar .contact-link:hover,
+.section-navbar .portfolio-link:hover,
+.section-navbar .about-link:hover {
   color: #4CA6E0;
 }
 
-.section-navbar .contact-link:hover .active, .section-navbar .portfolio-link:hover .active, .section-navbar .about-link:hover .active {
+.section-navbar .home-link:hover .active,
+.section-navbar .contact-link:hover .active,
+.section-navbar .portfolio-link:hover .active,
+.section-navbar .about-link:hover .active {
   color: #545454;
 }
 
-.section-navbar .contact-link:hover .active .span-link-active, .section-navbar .portfolio-link:hover .active .span-link-active, .section-navbar .about-link:hover .active .span-link-active {
+.section-navbar .home-link:hover .active .span-link-active,
+.section-navbar .contact-link:hover .active .span-link-active,
+.section-navbar .portfolio-link:hover .active .span-link-active,
+.section-navbar .about-link:hover .active .span-link-active {
   text-decoration: none;
 }
 
-.section-navbar .contact-link .span-link-active:hover, .section-navbar .portfolio-link .span-link-active:hover, .section-navbar .about-link .span-link-active:hover {
+.section-navbar .home-link .span-link-active:hover,
+.section-navbar .contact-link .span-link-active:hover,
+.section-navbar .portfolio-link .span-link-active:hover,
+.section-navbar .about-link .span-link-active:hover {
   text-decoration: underline;
 }
 /*# sourceMappingURL=app.css.map */

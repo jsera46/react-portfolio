@@ -1,47 +1,45 @@
 .section-navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 34px 90px;
-    font-family: $font-title;
-    font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 34px 90px;
+  font-family: $font-title;
+  font-weight: bold;
 
-    .span-logo {
-        color: $accent;
+  .span-logo {
+    color: $accent;
+  }
+  .active {
+    color: $accent;
+    .span-link-active {
+      text-decoration: underline;
     }
-    .active {
-        color: $accent;
-        .span-link-active {
-            text-decoration: underline;
-        }
-        
+  }
+  a {
+    color: $text-color;
+    font-size: 18px;
+
+    &:hover {
+      text-decoration: none;
     }
-    a {
+  }
+  .home-link,
+  .contact-link,
+  .portfolio-link,
+  .about-link {
+    margin-left: 27px;
+
+    &:hover {
+      color: $accent;
+      .active {
         color: $text-color;
-        font-size: 18px;
-
-        &:hover {
-            text-decoration: none;
+        .span-link-active {
+          text-decoration: none;
         }
-    }    
-    .contact-link, .portfolio-link, .about-link {
-        margin-left: 27px;
-
-        &:hover{
-            color: $accent;
-            .active {
-                color: $text-color;
-                .span-link-active {
-                    text-decoration: none;
-                }
-            }
-        }
-        .span-link-active:hover {
-            text-decoration: underline;
-            
-        }
+      }
     }
-
-    
-    
+    .span-link-active:hover {
+      text-decoration: underline;
+    }
+  }
 }
