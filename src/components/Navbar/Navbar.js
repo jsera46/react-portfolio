@@ -3,22 +3,33 @@ import "../../styles/app.css";
 import { Link, useLocation } from "react-router-dom";
 
 const Index = () => {
-  const location = useLocation();
+  const location = useLocation().pathname;
 
   console.log(location);
   return (
     <nav>
       <section className="section-navbar">
         <Link to="/">
-          <span>Jamar</span> Portfolio
+          <span className="span-logo">Jamar</span> Portfolio
         </Link>
 
         {location.pathname !== "/404" ? (
           <div>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/portfoliopage">Portfolio</Link>
-            <Link to="/contactpage">Contact</Link>
+            <Link to="/" className="home-link active">
+              <span className="span-link-active">Hom</span>e
+            </Link>
+
+            <Link to="/about" className="about-link">
+              <span className="span-link-active">Abou</span>t
+            </Link>
+
+            <Link to="/portfoliopage" className="portfolio-link">
+              <span className="span-link-active">Portfoli</span>o
+            </Link>
+
+            <Link to="/contactpage" className="contact-link">
+              <span className="span-link-active">Contac</span>t
+            </Link>
           </div>
         ) : (
           ""

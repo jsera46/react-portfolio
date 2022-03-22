@@ -16,8 +16,8 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/contactpage" element={<ContactPage />} />
           <Route path="/portfoliopage" element={<PortfolioPage />} />
+          <Route path="/contactpage" element={<ContactPage />} />
           <Route path="/*" element={<Error404 />} />
         </Route>
       </Routes>

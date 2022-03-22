@@ -1,10 +1,12 @@
 import React from 'react';
 import "../../styles/app.css";
+import { Navbar } from '../Exporter';
 
 const Index = () => (
-    <div>
+    <>
+        <Navbar />
         AboutPage Component
-    </div>
+    </>
 );
 
 
