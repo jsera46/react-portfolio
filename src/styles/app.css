@@ -1,15 +1,23 @@
-.linkDiv {
-  margin-left: 90px;
-}
-
-.linkDiv .div404 {
+.div404 {
   margin-top: 90px;
   position: relative;
   width: 1920px;
   height: 744px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
 }
 
-.linkDiv .iconsDiv {
+.div404 .linkDiv {
+  margin-left: 90px;
+}
+
+.div404 .linkDiv .iconsDiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,18 +27,27 @@
           flex-direction: column;
 }
 
-.linkDiv .first-bar {
+.div404 .linkDiv .first-bar {
   position: relative;
   width: 260px;
   height: 0px;
-  border: 1px solid #4CA6E0;
+  border: 1px solid #4ca6e0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
-.linkDiv .second-bar {
+.div404 .linkDiv .second-bar {
   position: relative;
   width: 260px;
   height: 0px;
-  border: 1px solid #4CA6E0;
+  left: 108px;
+  top: 619px;
+}
+
+.div404 .contentClass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section-navbar {
