@@ -1,0 +1,43 @@
+.linkDiv {
+    margin-left: 90px;
+
+    .div404 {
+        margin-top: 90px;
+        position: relative;
+        width: 1920px;
+        height: 744px;
+    }
+    .iconsDiv {
+        display: flex;
+        flex-direction: column;
+    }
+    .first-bar {
+    position: relative;
+    width: 260px;
+    height: 0px;
+    // left: 108px;
+    // top: 180px;
+
+    border: 1px solid #4CA6E0;
+    // transform: rotate(90deg);
+    }
+
+    .second-bar {
+        position: relative;
+        width: 260px;
+        height: 0px;
+        // left: 108px;
+        // top: 619px;
+    
+        border: 1px solid #4CA6E0;
+        // transform: rotate(90deg);
+    }
+    
+    // .iconsDiv {
+    
+    //     i {
+    //         width: 18px;
+    //         height: 18px;
+    //     }
+    // }
+}
