@@ -1,64 +1,91 @@
 .div404 {
-  margin-top: 90px;
   position: relative;
-  width: 1920px;
-  height: 744px;
+  width: 1366px;
   display: flex;
   flex-direction: row;
   overflow: hidden;
 
   .linkDiv {
-    margin-left: 90px;
-
+    width: 26.32px;
+    padding-left: 79px;
+    height: 488px;
+    z-index: 1;
+    .first-bar {
+      width: 204px;
+      border: 1px solid #000;
+      transform: rotate(90deg);
+      position: absolute;
+      left: 0;
+    }
     .iconsDiv {
       display: flex;
       flex-direction: column;
+      padding-top: 194px;
+      i {
+        font-size: 18px;
+      }
+      .fa-github {
+        color: #000;
+      }
+      .fa-linkedin {
+        color: #0077b5;
+        margin-top: 23px;
+      }
+      .fa-facebook {
+        color: #4867aa;
+        margin-top: 23px;
+      }
     }
-    .first-bar {
-      position: relative;
-      width: 260px;
-      height: 0px;
-      //   left: 108px;
-      //   top: 180px;
-
-      border: 1px solid #4ca6e0;
-      transform: rotate(90deg);
-    }
-
     .second-bar {
-      position: relative;
-      width: 260px;
-      height: 0px;
-      left: 108px;
-      top: 619px;
-
-      //   border: 1px solid #4ca6e0;
-      //   transform: rotate(90deg);
+      width: 204px;
+      border: 1px solid #000;
+      transform: rotate(90deg);
+      position: absolute;
+      bottom: 0;
+      left: 0;
     }
-
-    // .iconsDiv {
-
-    //     i {
-    //         width: 18px;
-    //         height: 18px;
-    //     }
-    // }
   }
 
   .contentClass {
     display: flex;
+    flex-direction: column;
+    z-index: 0;
     .label404 {
-      //   width: 903px;
-      //   height: 495px;
-      //   left: 509px;
-      //   top: 180px;
-      //   font-family: $font-title;
-      //   font-style: normal;
-      //   font-weight: 700px;
-      //   font-size: 450px;
-      //   line-height: 675px;
-      //   color: $secondary;
-      //   filter: blur(20px);
+      font-size: 300px;
+      font-weight: bold;
+      margin-left: 423px;
+      margin-top: -34px;
+      color: $secondary;
+      filter: blur(9px);
+
+      &:hover {
+        filter: blur(0px);
+      }
+    }
+    .labelContent {
+      font-weight: 500;
+      margin-left: 444px;
+      margin-top: -80px;
+      color: $secondary;
+      filter: blur(9px);
+
+      &:hover {
+        filter: blur(0px);
+      }
+    }
+    .btn-HomePage {
+      font-size: 22px;
+      font-weight: bold;
+      padding-top: 17px;
+      color: #fff;
+      background: #4ca6e0;
+      border-radius: 10px;
+      width: 193.16px;
+      height: 67px;
+      margin-left: 580px;
+      margin-top: 32px;
+      text-align: center;
+      text-decoration: none;
     }
   }
 }
