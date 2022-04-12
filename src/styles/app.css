@@ -20,7 +20,7 @@
 
 .div404 .linkDiv .first-bar {
   width: 204px;
-  border: 1px solid #000;
+  border: 1px solid #4CA6E0;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   position: absolute;
@@ -51,14 +51,15 @@
   margin-top: 23px;
 }
 
-.div404 .linkDiv .iconsDiv .fa-facebook {
-  color: #4867aa;
+.div404 .linkDiv .iconsDiv img {
+  width: 18px;
+  height: 18px;
   margin-top: 23px;
 }
 
 .div404 .linkDiv .second-bar {
   width: 204px;
-  border: 1px solid #000;
+  border: 1px solid #4CA6E0;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   position: absolute;

@@ -28,10 +28,10 @@ const Index = () => {
               <i className="fab fa-linkedin" target="_blank"></i>
             </a>
             <a
-              href="https://web.facebook.com/jamarusman10?_rdc=1&_rdr"
+              href="https://www.onlinejobs.ph/jobseekers/info/1421435"
               target="_blank"
             >
-              <i className="fab fa-facebook"></i>
+              <img src="/images/oj-logo-icon.png" alt />
             </a>
           </div>
           {/* 2nd Bar */}
