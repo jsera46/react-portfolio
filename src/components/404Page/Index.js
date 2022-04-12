@@ -18,20 +18,22 @@ const Index = () => {
 
           {/* Icons */}
           <div className="iconsDiv">
-            <a href="https://github.com/jsera46" target="_blank">
+            <a href="https://github.com/jsera46" target="_blank" rel="noreferrer">
               <i className="fab fa-github"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/jamar-usman-00a098234/"
               target="_blank"
+              rel="noreferrer"
             >
-              <i className="fab fa-linkedin" target="_blank"></i>
+              <i className="fab fa-linkedin"></i>
             </a>
             <a
               href="https://www.onlinejobs.ph/jobseekers/info/1421435"
               target="_blank"
+              rel="noreferrer"
             >
-              <img src="/images/oj-logo-icon.png" alt />
+              <img src="/images/oj-logo-icon.png" />
             </a>
           </div>
           {/* 2nd Bar */}
