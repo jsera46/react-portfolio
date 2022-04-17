@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 import "../../styles/app.css";
+import { Footer, Navbar } from "../Exporter";
 
 const Index = () => (
-    <div>
-        AboutPage Component
-    </div>
+  <>
+    <Navbar />
+    AboutPage Component
+    <Footer />
+  </>
 );
-
 
 export default Index;

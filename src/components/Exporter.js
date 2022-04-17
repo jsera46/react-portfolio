@@ -5,7 +5,7 @@ export { default as Error404 } from "./404Page/Index";
 export { default as AboutPage } from "./AboutPage/Index";
 
 // Contact
-export { default as ContactPage } from "./AboutPage/Index";
+export { default as ContactPage } from "./ContactPage/Index";
 
 // Footer
 export { default as Footer } from "./Footer/Index";
