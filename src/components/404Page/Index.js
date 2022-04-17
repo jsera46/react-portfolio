@@ -37,7 +37,7 @@ const Index = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/images/oj-logo-icon.png" alt="" />
+              <img src="/images/oj-logo-icon.png" />
             </a>
           </div>
           {/* 2nd Bar */}
