@@ -1,15 +1,16 @@
-import React from "react";
-import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "../../styles/app.css";
-import { Navbar } from "../Exporter";
 
 const Index = () => {
-  const location = useLocation();
-  location.pathname = "/404";
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate("/404");
+  }, []);
 
   return (
     <div className="page404">
-      <Navbar />
       <div className="col-md-12 div404">
         {/* linkDiv */}
         <div className="linkDiv">
