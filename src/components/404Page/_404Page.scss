@@ -52,28 +52,23 @@
     display: flex;
     flex-direction: column;
     z-index: 0;
+
+    &:hover {
+      filter: blur(0px);
+    }
     .label404 {
       font-size: 300px;
       font-weight: bold;
       margin-left: 423px;
       margin-top: -34px;
+      padding-bottom: 10px;
       color: $secondary;
-      filter: blur(9px);
-
-      &:hover {
-        filter: blur(0px);
-      }
     }
     .labelContent {
       font-weight: 500;
       margin-left: 444px;
       margin-top: -80px;
       color: $secondary;
-      filter: blur(9px);
-
-      &:hover {
-        filter: blur(0px);
-      }
     }
     .btn-HomePage {
       font-size: 22px;
@@ -88,6 +83,7 @@
       margin-top: 32px;
       text-align: center;
       text-decoration: none;
+      filter: blur(0px);
     }
   }
 }

@@ -6,40 +6,64 @@
   font-family: $font-title;
   font-weight: bold;
 
-  .span-logo {
-    color: $accent;
-  }
-  .active {
-    color: $accent;
-    .span-link-active {
-      text-decoration: underline;
-    }
-  }
   a {
-    color: $text-color;
+    position: relative;
+    font-family: $font-title;
+    letter-spacing: 1px;
     font-size: 18px;
+    color: $text-color;
 
     &:hover {
       text-decoration: none;
     }
   }
-  .home-link,
-  .contact-link,
-  .portfolio-link,
-  .about-link {
-    margin-left: 27px;
 
-    &:hover {
+  .logo-container {
+    .span-logo {
       color: $accent;
-      .active {
-        color: $text-color;
-        .span-link-active {
-          text-decoration: none;
-        }
+    }
+  }
+
+  .links-container {
+    a {
+      margin: 0 20px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: $accent;
+        height: 2px;
+        width: 0;
+        left: 0;
+        bottom: -0px;
+        transition: 0.3s ease-in-out;
+      }
+
+      &:hover {
+        color: $accent;
+      }
+
+      &:hover::after {
+        width: 100%;
       }
     }
-    .span-link-active:hover {
-      text-decoration: underline;
+    .active {
+      color: $accent;
+      position: relative;
+      width: 0;
+
+      span {
+        &::after {
+          transition: 0.3s ease-in-out;
+          content: "";
+          left: 0;
+          bottom: -0px;
+          position: absolute;
+          background: $accent;
+          height: 2px;
+          width: 100%;
+        }
+      }
     }
   }
 }
