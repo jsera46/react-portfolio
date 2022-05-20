@@ -10,7 +10,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="page404">
+    <div className="page404-container">
       <div className="col-md-12 div404">
         {/* linkDiv */}
         <div className="linkDiv">

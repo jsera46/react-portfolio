@@ -1,89 +1,90 @@
-.div404 {
-  position: relative;
-  width: 1366px;
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;
+.page404-container {
+  .div404 {
+    position: relative;
+    width: 1366px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
 
-  .linkDiv {
-    width: 26.32px;
-    padding-left: 79px;
-    height: 488px;
-    z-index: 1;
-    .first-bar {
-      width: 204px;
-      border: 1px solid $accent;
-      transform: rotate(90deg);
-      position: absolute;
-      left: 0;
+    .linkDiv {
+      width: 26.32px;
+      padding-left: 79px;
+      height: 488px;
+      z-index: 1;
+      .first-bar {
+        width: 204px;
+        border: 1px solid $accent;
+        transform: rotate(90deg);
+        position: absolute;
+        left: 0;
+      }
+      .iconsDiv {
+        display: flex;
+        flex-direction: column;
+        padding-top: 194px;
+        i {
+          font-size: 18px;
+        }
+
+        .fa-github {
+          color: #000;
+        }
+        .fa-linkedin {
+          color: #0077b5;
+          margin-top: 23px;
+        }
+        img {
+          width: 18px;
+          height: 18px;
+          margin-top: 23px;
+        }
+      }
+      .second-bar {
+        width: 204px;
+        border: 1px solid $accent;
+        transform: rotate(90deg);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
     }
-    .iconsDiv {
+    .contentClass {
       display: flex;
       flex-direction: column;
-      padding-top: 194px;
-      i {
-        font-size: 18px;
-      }
+      z-index: 0;
 
-      .fa-github {
-        color: #000;
+      &:hover {
+        filter: blur(0px);
       }
-      .fa-linkedin {
-        color: #0077b5;
-        margin-top: 23px;
+      .label404 {
+        font-size: 300px;
+        font-weight: bold;
+        margin-left: 423px;
+        margin-top: -34px;
+        padding-bottom: 10px;
+        color: $secondary;
       }
-      img {
-        width: 18px;
-        height: 18px;
-        margin-top: 23px;
+      .labelContent {
+        font-weight: 500;
+        margin-left: 444px;
+        margin-top: -80px;
+        color: $secondary;
       }
-    }
-    .second-bar {
-      width: 204px;
-      border: 1px solid $accent;
-      transform: rotate(90deg);
-      position: absolute;
-      bottom: 0;
-      left: 0;
-    }
-  }
-
-  .contentClass {
-    display: flex;
-    flex-direction: column;
-    z-index: 0;
-
-    &:hover {
-      filter: blur(0px);
-    }
-    .label404 {
-      font-size: 300px;
-      font-weight: bold;
-      margin-left: 423px;
-      margin-top: -34px;
-      padding-bottom: 10px;
-      color: $secondary;
-    }
-    .labelContent {
-      font-weight: 500;
-      margin-left: 444px;
-      margin-top: -80px;
-      color: $secondary;
-    }
-    .btn-HomePage {
-      font-size: 22px;
-      font-weight: bold;
-      padding-top: 17px;
-      color: #fff;
-      background: #4ca6e0;
-      border-radius: 10px;
-      width: 193.16px;
-      height: 67px;
-      margin-left: 580px;
-      margin-top: 32px;
-      text-align: center;
-      text-decoration: none;
-      filter: blur(0px);
+      .btn-HomePage {
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 17px;
+        color: #fff;
+        background: #4ca6e0;
+        border-radius: 10px;
+        width: 193.16px;
+        height: 67px;
+        margin-left: 580px;
+        margin-top: 32px;
+        text-align: center;
+        text-decoration: none;
+        filter: blur(0px);
+      }
     }
   }
 }
