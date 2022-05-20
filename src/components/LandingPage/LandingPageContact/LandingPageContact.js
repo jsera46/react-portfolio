@@ -1,11 +1,12 @@
-import React from 'react';
-import "../../styles/app.css";
+import React from "react";
+import "../../../styles/app.css";
 
-const LandingPageContact = () => (
-    <div>
-        LandingPageContact Component
+const LandingPageContact = () => {
+  return (
+    <div className="landing-contact-container">
+      <span>Contact</span>
     </div>
-);
-
+  );
+};
 
 export default LandingPageContact;

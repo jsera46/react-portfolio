@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "../../styles/app.css";
 
 const Index = () => {
@@ -51,9 +51,9 @@ const Index = () => {
           <label className="labelContent">
             Woops... Sorry, we are not able to find what you where looking for
           </label>
-          <a href="/" className="btn-HomePage">
+          <Link to="/" className="btn-HomePage">
             Home Page
-          </a>
+          </Link>
         </div>
       </div>
     </div>
