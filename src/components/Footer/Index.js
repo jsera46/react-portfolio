@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "../../styles/app.css";
 
 const Index = () => (
@@ -14,19 +13,28 @@ const Index = () => (
     <div className="social-media-container">
       <span className="social-media">Social Media</span>
       <div className="links-container">
-        <a href="https://github.com/jsera46" target="_blank">
+        <a href="https://github.com/jsera46" target="_blank" rel="noreferrer">
           <i className="fab fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/jamar-usman-00a098234/"
-          target="_blank"
+          target="_blank="
+          rel="noreferrer"
         >
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="https://www.facebook.com/jamarusman10" target="_blank">
+        <a
+          href="https://www.facebook.com/jamarusman10"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fab fa-facebook"></i>
         </a>
-        <a href="https://twitter.com/jamar_usman" target="_blank">
+        <a
+          href="https://twitter.com/jamar_usman"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fab fa-twitter"></i>
         </a>
       </div>
