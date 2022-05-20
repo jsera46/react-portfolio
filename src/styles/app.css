@@ -8,6 +8,7 @@
 }
 
 .page404-container .div404 {
+
   position: relative;
   width: 1366px;
   display: -webkit-box;
@@ -88,11 +89,13 @@
 }
 
 .page404-container .div404 .contentClass:hover {
+
   -webkit-filter: blur(0px);
           filter: blur(0px);
 }
 
 .page404-container .div404 .contentClass .label404 {
+
   font-size: 300px;
   font-weight: bold;
   margin-left: 423px;
@@ -102,6 +105,7 @@
 }
 
 .page404-container .div404 .contentClass .labelContent {
+
   font-weight: 500;
   margin-left: 444px;
   margin-top: -80px;
@@ -109,6 +113,7 @@
 }
 
 .page404-container .div404 .contentClass .btn-HomePage {
+
   font-size: 22px;
   font-weight: bold;
   padding-top: 17px;
@@ -123,6 +128,7 @@
   text-decoration: none;
   -webkit-filter: blur(0px);
           filter: blur(0px);
+
 }
 
 .footer-container {
@@ -331,6 +337,7 @@
 
 .section-navbar .links-container a:hover::after {
   width: 100%;
+
 }
 
 .section-navbar .links-container .active {
@@ -338,6 +345,7 @@
   position: relative;
   width: 0;
 }
+
 
 .section-navbar .links-container .active span::after {
   -webkit-transition: 0.3s ease-in-out;
