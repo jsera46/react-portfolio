@@ -17,7 +17,7 @@
       position: absolute;
       width: 90px;
       height: 0;
-      border: 1px solid #000;
+      border: 1px solid $accent;
       transform: rotate(90deg);
     }
     .upline {
@@ -36,8 +36,23 @@
       padding-left: 135px;
       font-size: 18px;
 
-      i {
-        padding-top: 10px;
+      a {
+        i {
+          padding-top: 10px;
+        }
+        .fa-github {
+          color: #000;
+        }
+        .fa-linkedin {
+          color: #0077b5;
+        }
+
+        .fa-facebook {
+          color: #4267b2;
+        }
+        .fa-twitter {
+          color: #1da1f2;
+        }
       }
     }
   }
