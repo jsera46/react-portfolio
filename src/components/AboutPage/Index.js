@@ -1,11 +1,6 @@
-import React from 'react';
+import React from "react";
 import "../../styles/app.css";
 
-const Index = () => (
-    <div>
-        AboutPage Component
-    </div>
-);
-
+const Index = () => <>AboutPage Component</>;
 
 export default Index;

@@ -1,11 +1,6 @@
-import React from 'react';
+import React from "react";
 import "../../styles/app.css";
 
-const Index = () => (
-    <div>
-        PortfolioPage Component
-    </div>
-);
-
+const Index = () => <>PortfolioPage Component</>;
 
 export default Index;

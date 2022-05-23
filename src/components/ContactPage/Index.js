@@ -1,11 +1,6 @@
-import React from 'react';
+import React from "react";
 import "../../styles/app.css";
 
-const Index = () => (
-    <div>
-        ContactPage Component
-    </div>
-);
-
+const Index = () => <>ContactPage Component</>;
 
 export default Index;
