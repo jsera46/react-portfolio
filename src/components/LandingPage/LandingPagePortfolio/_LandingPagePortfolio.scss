@@ -1,4 +1,141 @@
 .landing-portfolio-container {
-  background: green;
   height: 657px;
+  display: flex;
+  max-width: 1348px;
+  position: relative;
+
+  .upper-realm {
+    position: absolute;
+    top: 0;
+    height: 54px;
+    width: 100%;
+  }
+
+  .lower-realm {
+    position: absolute;
+    bottom: 0;
+    height: 54px;
+    width: 100%;
+  }
+
+  .content-container {
+    position: relative;
+    display: flex;
+    .left-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .left-project-container {
+        width: calc(1348px / 2);
+        height: 449px;
+        display: flex;
+        padding-left: 111px;
+
+        .left-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin-right: 9px;
+
+          .project-1 {
+            width: 276px;
+            height: 220px;
+            background: #c4c4c4;
+            border: 1px solid #4ca6e0;
+            cursor: pointer;
+          }
+
+          .project-2 {
+            width: 276px;
+            height: 220px;
+            background: #c4c4c4;
+            border: 1px solid #4ca6e0;
+            cursor: pointer;
+          }
+        }
+
+        .right-container {
+          .project-3 {
+            width: 276px;
+            height: 449px;
+            background: #c4c4c4;
+            border: 1px solid #4ca6e0;
+            cursor: pointer;
+          }
+        }
+      }
+      a {
+        padding-top: 18px;
+        color: $accent;
+        font-size: 14px;
+        font-family: $font-title;
+        font-weight: 600;
+        padding-left: 111px;
+
+        span {
+          text-decoration: underline;
+        }
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .right-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      padding-left: 16px;
+
+      span {
+        width: 567px;
+        text-align: right;
+        font-family: $font-title;
+        font-weight: 700;
+        font-size: 24px;
+        color: #333333;
+        text-shadow: 30px 18px 4px rgba(234, 79, 231, 0.25);
+        padding-bottom: 10px;
+      }
+
+      .right-project-container {
+        width: calc(1348px / 2);
+      }
+
+      .top-container {
+        margin-bottom: 9px;
+        .project-1 {
+          width: 567px;
+          height: 211px;
+          cursor: pointer;
+          background: #c4c4c4;
+          border: 1px solid #4ca6e0;
+        }
+      }
+
+      .bottom-container {
+        width: 567px;
+        display: flex;
+        justify-content: space-between;
+
+        .project-2 {
+          width: 279px;
+          height: 211px;
+          background: #c4c4c4;
+          border: 1px solid #4ca6e0;
+          cursor: pointer;
+        }
+        .project-3 {
+          width: 279px;
+          height: 211px;
+          background: #c4c4c4;
+          border: 1px solid #4ca6e0;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }
