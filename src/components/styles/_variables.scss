@@ -7,3 +7,20 @@ $primary: #fff;
 $secondary: #ea4fe7;
 $accent: #4ca6e0;
 $text-color: #545454;
+
+// Table Data List Scrool
+@mixin list-scroll-webkit {
+  ::-webkit-scrollbar {
+    width: 18px;
+  }
+  ::-webkit-scrollbar-track {
+    background: $text-color;
+    border-left: 9px solid white;
+    border-right: 9px solid white;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: $accent;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+  }
+}

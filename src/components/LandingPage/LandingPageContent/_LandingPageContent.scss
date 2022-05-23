@@ -1,0 +1,48 @@
+.landing-content-container {
+  height: 657px;
+  position: relative;
+  height: 100vh;
+
+  .text-container {
+    position: absolute;
+    bottom: 0;
+    width: 55%;
+    padding-left: 145px;
+    padding-bottom: 15px;
+    z-index: 5;
+
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .span-div {
+      font-size: 12px;
+      display: flex;
+      letter-spacing: 0.9px;
+
+      .first-span {
+        padding-right: 25px;
+      }
+    }
+
+    a {
+      text-transform: uppercase;
+      color: $accent;
+      font-weight: 600;
+
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .content-svg {
+    position: absolute;
+    width: 1186px;
+    height: 657px;
+    left: 90px;
+    top: 0px;
+    z-index: 1;
+  }
+}
