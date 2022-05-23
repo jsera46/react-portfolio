@@ -5,25 +5,20 @@
   position: relative;
 
   .upper-realm {
-    position: absolute;
     top: 0;
-    height: 54px;
-    width: 100%;
+    @include landing-realm;
   }
 
   .lower-realm {
-    position: absolute;
     bottom: 0;
-    height: 54px;
-    width: 100%;
+    @include landing-realm;
   }
 
   .content-container {
     position: relative;
     display: flex;
     .left-div {
-      display: flex;
-      flex-direction: column;
+      @include flex-column;
       justify-content: center;
 
       .left-project-container {
@@ -33,25 +28,28 @@
         padding-left: 111px;
 
         .left-container {
-          display: flex;
-          flex-direction: column;
+          @include flex-column;
           justify-content: space-between;
           margin-right: 9px;
 
           .project-1 {
             width: 276px;
             height: 220px;
-            background: #c4c4c4;
-            border: 1px solid #4ca6e0;
-            cursor: pointer;
+            @include landing-portfolio-effects;
+
+            &:hover {
+              @include portfolio-hover;
+            }
           }
 
           .project-2 {
             width: 276px;
             height: 220px;
-            background: #c4c4c4;
-            border: 1px solid #4ca6e0;
-            cursor: pointer;
+            @include landing-portfolio-effects;
+
+            &:hover {
+              @include portfolio-hover;
+            }
           }
         }
 
@@ -59,9 +57,11 @@
           .project-3 {
             width: 276px;
             height: 449px;
-            background: #c4c4c4;
-            border: 1px solid #4ca6e0;
-            cursor: pointer;
+            @include landing-portfolio-effects;
+
+            &:hover {
+              @include portfolio-hover;
+            }
           }
         }
       }
@@ -84,8 +84,7 @@
     }
 
     .right-div {
-      display: flex;
-      flex-direction: column;
+      @include flex-column;
       justify-content: center;
       position: relative;
       padding-left: 16px;
@@ -110,9 +109,11 @@
         .project-1 {
           width: 567px;
           height: 211px;
-          cursor: pointer;
-          background: #c4c4c4;
-          border: 1px solid #4ca6e0;
+          @include landing-portfolio-effects;
+
+          &:hover {
+            @include portfolio-hover;
+          }
         }
       }
 
@@ -124,16 +125,20 @@
         .project-2 {
           width: 279px;
           height: 211px;
-          background: #c4c4c4;
-          border: 1px solid #4ca6e0;
-          cursor: pointer;
+          @include landing-portfolio-effects;
+
+          &:hover {
+            @include portfolio-hover;
+          }
         }
         .project-3 {
           width: 279px;
           height: 211px;
-          background: #c4c4c4;
-          border: 1px solid #4ca6e0;
-          cursor: pointer;
+          @include landing-portfolio-effects;
+
+          &:hover {
+            @include portfolio-hover;
+          }
         }
       }
     }

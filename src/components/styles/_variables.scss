@@ -24,3 +24,26 @@ $text-color: #545454;
     border-right: 7px solid white;
   }
 }
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin landing-realm {
+  position: absolute;
+  height: 54px;
+  width: 100%;
+}
+
+@mixin landing-portfolio-effects {
+  background: #c4c4c4;
+  border: 1px solid $accent;
+  opacity: 0.6;
+}
+
+@mixin portfolio-hover {
+  transform: scale(1.007);
+  transition: 1.3s ease;
+  opacity: 1;
+}

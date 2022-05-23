@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import Upper from "../../../assets/landing/upper-column.png";
 import Lower from "../../../assets/landing/lower-column.png";
 
+import ProjectHccci from "../../../assets/landing/HCCCI.png";
+import JavaLearning from "../../../assets/landing/java-learning.jpg";
+
 const LandingPagePortfolio = () => {
   return (
     <div className="landing-portfolio-container">
@@ -17,7 +20,13 @@ const LandingPagePortfolio = () => {
               <div className="project-2" />
             </div>
             <div className="right-container">
-              <div className="project-3" />
+              <div
+                className="project-3"
+                style={{
+                  background: `url(${JavaLearning})`,
+                  backgroundSize: "cover",
+                }}
+              />
             </div>
           </div>
           <Link to={"/portfoliopage"}>
@@ -28,7 +37,13 @@ const LandingPagePortfolio = () => {
           <span>Portfolio</span>
           <div className="right-project-container">
             <div className="top-container">
-              <div className="project-1" />
+              <div
+                className="project-1"
+                style={{
+                  background: `url(${ProjectHccci})`,
+                  backgroundSize: "cover",
+                }}
+              />
             </div>
             <div className="bottom-container">
               <div className="project-2" />
