@@ -1,11 +1,11 @@
 import React from "react";
 import "../../../styles/app.css";
 import { Link } from "react-router-dom";
-import Upper from "../../../assets/landing/upper-column.png";
-import Lower from "../../../assets/landing/lower-column.png";
+import Upper from "../../../assets/images/landing/upper-column.png";
+import Lower from "../../../assets/images/landing/lower-column.png";
 
-import ProjectHccci from "../../../assets/landing/HCCCI.png";
-import JavaLearning from "../../../assets/landing/java-learning.jpg";
+import ProjectHccci from "../../../assets/images/landing/HCCCI.png";
+import JavaLearning from "../../../assets/images/landing/java-learning.jpg";
 
 const LandingPagePortfolio = () => {
   return (
