@@ -1,6 +1,7 @@
 import React from "react";
 import "../../../styles/app.css";
-import background from "../../../assets/landing/contact.png";
+
+import background from "../../../assets/images/landing/contact.png";
 
 const LandingPageContact = () => {
   return (
