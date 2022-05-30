@@ -1,8 +1,10 @@
 import React from "react";
 import "../../../styles/app.css";
 
+
 import { ReactComponent as MainSvg } from "../../../assets/images/landing/main-img.svg";
 import { ReactComponent as MainVector } from "../../../assets/images/landing/main-vector.svg";
+
 
 const LandingPageMain = () => {
   return (

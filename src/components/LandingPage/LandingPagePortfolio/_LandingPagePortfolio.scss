@@ -5,6 +5,7 @@
   position: relative;
 
   .upper-realm {
+
     top: 0;
     @include landing-realm;
   }
@@ -12,13 +13,16 @@
   .lower-realm {
     bottom: 0;
     @include landing-realm;
+
   }
 
   .content-container {
     position: relative;
     display: flex;
     .left-div {
+
       @include flex-column;
+
       justify-content: center;
 
       .left-project-container {
@@ -28,7 +32,9 @@
         padding-left: 111px;
 
         .left-container {
+
           @include flex-column;
+
           justify-content: space-between;
           margin-right: 9px;
 
@@ -40,6 +46,7 @@
             &:hover {
               @include portfolio-hover;
             }
+
           }
 
           .project-2 {
@@ -50,6 +57,7 @@
             &:hover {
               @include portfolio-hover;
             }
+
           }
         }
 
@@ -62,6 +70,7 @@
             &:hover {
               @include portfolio-hover;
             }
+
           }
         }
       }
@@ -85,6 +94,7 @@
 
     .right-div {
       @include flex-column;
+
       justify-content: center;
       position: relative;
       padding-left: 16px;
@@ -114,6 +124,7 @@
           &:hover {
             @include portfolio-hover;
           }
+
         }
       }
 
@@ -130,6 +141,7 @@
           &:hover {
             @include portfolio-hover;
           }
+
         }
         .project-3 {
           width: 279px;

@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
+
 import { ReactComponent as ContentSvg } from "../../../assets/images/landing/content-img.svg";
+
+
 import "../../../styles/app.css";
 
 const LandingPageContent = () => {

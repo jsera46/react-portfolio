@@ -1,6 +1,7 @@
 import React from "react";
 import "../../../styles/app.css";
 import { Link } from "react-router-dom";
+
 import Upper from "../../../assets/images/landing/upper-column.png";
 import Lower from "../../../assets/images/landing/lower-column.png";
 
@@ -56,5 +57,6 @@ const LandingPagePortfolio = () => {
     </div>
   );
 };
+
 
 export default LandingPagePortfolio;
